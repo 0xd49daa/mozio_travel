@@ -1,5 +1,4 @@
 import CityAutocomplete from '../CityAutocomplete/CityAutocomplete'
-import React from 'react'
 import {default as StepItem} from '@mui/material/Step'
 import StepLabel from '@mui/material/StepLabel'
 import {Box} from '@mui/material'

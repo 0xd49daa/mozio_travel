@@ -1,4 +1,3 @@
-import { useContext, useEffect } from "react";
 import { StepperStyled } from "../CitiesSelector/StepperStyled";
 import { Step, StepLabel, StepContext, Typography } from "@mui/material"
 import PlaceOutlinedIcon from '@mui/icons-material/PlaceOutlined';
@@ -8,7 +7,7 @@ import UnionIcon from "./UnionIcon";
 import { City } from "../../types/common";
 import { Text } from "../../common/Text";
 import BackButton from "../BackButton/BackButton";
-import dayjs, { Dayjs } from 'dayjs'
+import dayjs from 'dayjs'
 import { DATE_FORMAT } from "../../constants";
 
 //  : CircleOutlinedIcon

@@ -1,5 +1,5 @@
 import {City} from './types/common'
-import dayjs, { Dayjs } from 'dayjs'
+import dayjs from 'dayjs'
 
 export const EMPTY_CITY: City = {
 	name: '',
